@@ -1,4 +1,5 @@
 import sys
+int temp
 
 if len(sys.argv) == 2:
     script_name = sys.argv[0]
