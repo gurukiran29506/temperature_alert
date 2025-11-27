@@ -1,9 +1,8 @@
 import sys
-int temp
 
 if len(sys.argv) == 2:
     script_name = sys.argv[0]
-    temp = sys.argv[1]   # convert to integer
+    temp = int(sys.argv[1])   # convert to integer
 else:
     temp = 25
 
