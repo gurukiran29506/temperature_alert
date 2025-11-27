@@ -6,9 +6,9 @@ if len(sys.argv) == 2:
 else:
     temp = 25
 
-if temp > 40:
+if (temp > 40):
     print("hot")
-elif temp > 20:
+elif (temp > 20):
     print("normal")
 else:
     print("cold")
